@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,7 +30,12 @@
     </div>
     <div id="hero" class="text_center">
         <div id="hero_container" class="container">
-            <div class="label">Early access now open</div>
+            <div class="label">
+                <span class="circle"></span>
+                <p>
+                    Early Access Now Open
+                </p>
+            </div>
             <div class="heading">
                 <h1 id="heading_white">Structured Thinking,</h1>
                 <h1 id="heading_green">Not Just Note-Taking.</h1>
@@ -42,7 +50,7 @@
                     <span>Start Building Your Vault</span>
                     <img src="image/ArrowRight.png">
                 </button>
-                <button class="btn btn_white"><span class="play">▶</span> How it Works</button>
+                <button class="btn btn_white"><span class="play">▶</span>See How It Works</button>
             </div>
         </div>
     </div>
@@ -54,28 +62,40 @@
             </div>
             <div class="card_box">
                 <div class="card_sample">
-                    <img src="image/Vector.png" alt="Vector icon">
-
+                    <!-- <div class="image_container"> -->
+                    <div class="circle-bg">
+                        <img src="image/Info.png" alt="Info">
+                    </div>
+                    <!-- <img src="image/Vector.png" alt="Vector icon"> -->
+                    <!-- <div class="red_circle"></div> -->
+                    <!-- </div> -->
                     <h3>Scattered Notes</h3>
                     <p>Your ideas live in 10 different apps, none of them connected.</p>
                 </div>
                 <div class="card_sample">
-                    <img src="image/Vector.png" alt="Vector icon">
-
-                    <h3>Scattered Notes</h3>
-                    <p>Your ideas live in 10 different apps, none of them connected.</p>
+                    <div class="circle-bg">
+                        <img src="image/Bookmarks.png" alt="Info">
+                    </div>
+                    <h3>Bookmark Overload</h3>
+                    <p>Hundreds of saved links you'll never revisit or remember.</p>
                 </div>
                 <div class="card_sample">
-                    <img src="image/Vector.png" alt="Vector icon">
+                    <div class="circle-bg">
+                        <img src="image/Brain.png" alt="Info">
+                    </div>
 
-                    <h3>Scattered Notes</h3>
-                    <p>Your ideas live in 10 different apps, none of them connected.</p>
+                    <h3>No Idea Connections</h3>
+                    <p>Insights stay isolated, never building into bigger understanding.</p>
                 </div>
                 <div class="card_sample">
-                    <img src="image/Vector.png" alt="Vector icon">
+                    <div class="circle-bg">
+                        <img src="image/Info.png" alt="Info">
+                    </div>
 
-                    <h3>Scattered Notes</h3>
-                    <p>Your ideas live in 10 different apps, none of them connected.</p>
+                    <h3 id="no_margin">Forgetting What</h3>
+                    <h3>You Learned</h3>
+
+                    <p>Knowledge fades because there's no system to retain it.</p>
                 </div>
             </div>
 
@@ -117,8 +137,8 @@
             <h1>
                 Ready to think more clearly?
             </h1>
-            <p>Join thousands of learners who are building their personal knowledge vaults.Start free, no credit card
-                required.</p>
+            <p>Join thousands of learners who are building their personal knowledge vaults.
+            <p>Start free, no credit card required.</p>
             <button class="btn btn_img">
                 <span>Get Early Access</span>
                 <img src="image/ArrowRight.png">
@@ -131,11 +151,23 @@
     <div id="footer_container">
         <div class="footer" class="container">
             <img src="image/logo-footer.png">
-            <div class="social">
+
+            <div class="socialy">
                 <h6>Social Links</h6>
-                <img src="image/insta.png">
-                <img src="image/twitter.png">
-                <img src="image/facebook.png">
+                <div class="social">
+                    <div class="circle-footer">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+
+                    <div class="circle-footer">
+                        <i class="fa-brands fa-linkedin-in"></i></i>
+                    </div>
+
+                    <div class="circle-footer">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </div>
+
             </div>
         </div>
         <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>

@@ -295,3 +295,30 @@ margin-bottom: 2px;
     /* text-align: center; */
 
 }
+#footer_container{
+    background-color: #001931;
+    padding: 80px 120px 30px 120px;
+    /* padding-bottom: 50px; */
+    text-align: center;
+}
+.footer{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.footer .social h6{
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 27px;
+    /* margin-bottom: 20px; */
+}
+#footer_container p{
+    font-weight: 400;
+    color: #FAFAFA;
+    font-size: 12px;
+    line-height: 23px;
+    padding-top: 70px; 
+}
+

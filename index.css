@@ -361,7 +361,7 @@ margin-bottom: 2px;
     color: #FAFAFA;
     font-size: 12px;
     line-height: 23px;
-    padding-top: 70px; 
+    padding-top: 20px; 
     text-align: center;
 }
 #footer_container .circle-footer {
@@ -381,4 +381,15 @@ margin-bottom: 2px;
     /* align-items: center; */
     /* justify-content: center; */
     /* margin: 0px auto 20px auto; */
+}
+#footer_container .divider{
+    /* margin: 0px auto 20px auto; */
+    /* text-align: center; */
+    /* font-weight: 10;     */
+    margin-top: 85px;
+    border: none; 
+    /* remove default style */ 
+    height: 0.5px; /* thin line */ 
+    background-color: #cccccc2a;
+    /* margin: 20px 0; */
 }
